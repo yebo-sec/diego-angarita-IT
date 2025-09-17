@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servicios IT - Diego Angarita</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome para íconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="container">
+      <h1 class="logo">Diego Angarita<span class="accent"> IT</span></h1>
+      <ul class="nav-links">
+        <li><a href="#inicio" data-key="nav-home">Inicio</a></li>
+        <li><a href="#servicios" data-key="nav-services">Servicios</a></li>
+        <li><a href="#experiencia" data-key="nav-experience">Experiencia</a></li>
+        <li><a href="#proyectos" data-key="nav-projects">Proyectos</a></li>
+        <li><a href="#educacion" data-key="nav-education">Educación</a></li>
+        <li><a href="#skills" data-key="nav-skills">Habilidades</a></li>
+        <li><a href="#contacto" data-key="nav-contact">Contacto</a></li>
+      </ul>
+      <button class="lang-btn" id="lang-toggle">EN</button>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="inicio" class="hero">
+    <div class="hero-text">
+      <h2 data-key="hero-title">Especialista en Ciberseguridad & Soporte Cloud</h2>
+      <p data-key="hero-subtitle">Más de 6 años de experiencia en soporte técnico, seguridad informática y entornos
+        empresariales globales.</p>
+      <a href="#contacto" class="btn" data-key="hero-btn">Contáctame</a>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="container reveal">
+    <h2 class="section-title" data-key="services-title">Servicios</h2>
+    <div class="grid">
+      <div class="card">
+        <h3 data-key="srv1-title">Soporte Técnico</h3>
+        <p data-key="srv1-desc">Resolución de incidentes y mantenimiento preventivo.</p>
+      </div>
+      <div class="card">
+        <h3 data-key="srv2-title">Infraestructura Cloud</h3>
+        <p data-key="srv2-desc">Gestión de Azure, AWS y entornos híbridos.</p>
+      </div>
+      <div class="card">
+        <h3 data-key="srv3-title">Ciberseguridad</h3>
+        <p data-key="srv3-desc">Gestión de vulnerabilidades y hardening de sistemas.</p>
+      </div>
+      <div class="card">
+        <h3 data-key="srv4-title">Automatización</h3>
+        <p data-key="srv4-desc">Scripts en PowerShell y Python para optimizar procesos.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experiencia -->
+  <section id="experiencia" class="container reveal">
+    <h2 class="section-title" data-key="exp-title">Experiencia Profesional</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Support Engineer – Howdy / NCS</h3>
+        <p data-key="exp1">Administración de Active Directory, soporte remoto, gestión de Azure, políticas de seguridad
+          y resolución de incidentes globales (2024–2025).</p>
+      </div>
+      <div class="card">
+        <h3>Help Desk Analyst – Sonda</h3>
+        <p data-key="exp2">Soporte en Azure, SQL, políticas de acceso y seguridad cloud (2022–2024).</p>
+      </div>
+      <div class="card">
+        <h3>Technical Operator – SCIWW</h3>
+        <p data-key="exp3">Soporte remoto en México y EE.UU., monitoreo de infraestructura crítica (2023–2024).</p>
+      </div>
+      <div class="card">
+        <h3>Help Desk – Softtek / LALA México</h3>
+        <p data-key="exp4">Soporte corporativo 7x24, monitoreo de servidores y redes (2020–2021).</p>
+      </div>
+      <div class="card">
+        <h3>Help Desk – Davivienda / Soporte S.A.</h3>
+        <p data-key="exp5">Gestión de usuarios en Active Directory, soporte de sistemas, redes y estaciones de trabajo
+          (2021–2022).</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+  <section id="proyectos" class="container reveal">
+    <h2 class="section-title" data-key="projects-title">Proyectos Destacados</h2>
+    <ul>
+      <li data-key="proj1">Automatización con PowerShell e Intune: reducción de tiempos en 70% y mejora de seguridad
+        (Howdy/NCS 2024).</li>
+      <li data-key="proj2">Privatización de base de datos crítica en Azure con VPNs y acceso seguro (SCIWW 2023–2024).
+      </li>
+    </ul>
+  </section>
+
+  <!-- Educación -->
+  <section id="educacion" class="container reveal">
+    <h2 class="section-title" data-key="edu-title">Educación & Certificaciones</h2>
+    <ul>
+      <li>Systems Technician – SENA CENIGRAF</li>
+      <li data-key="edu1">SQL Master – Udemy (2024)</li>
+      <li data-key="edu2">Microsoft Intune – Udemy (2024)</li>
+      <li data-key="edu3">Junior Pentester – Hacker Mentor (2024)</li>
+    </ul>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="container reveal">
+    <h2 class="section-title" data-key="skills-title">Habilidades Técnicas</h2>
+    <ul>
+      <li>Cloud: Azure, AWS, Intune, Entra ID</li>
+      <li>Seguridad: CrowdStrike, Rapid7, Nessus, OWASP</li>
+      <li>Automatización: PowerShell, Python, Bash</li>
+      <li>Accesos: Active Directory, GPO, VPNs</li>
+      <li>Bases de datos: SQL Server, Azure SQL</li>
+    </ul>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="container reveal">
+    <h2 class="section-title" data-key="contact-title">Contacto</h2>
+    <div class="contact-icons">
+      <a href="mailto:diegoalejandroa1998@gmail.com" class="icon-link"><i class="fas fa-envelope"></i> Email</a>
+      <a href="https://www.linkedin.com/in/diego-angarita-994a36174/" target="_blank" class="icon-link"><i
+          class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="https://github.com/yebosec" target="_blank" class="icon-link"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://wa.me/573134843146" target="_blank" class="icon-link"><i class="fab fa-whatsapp"></i>
+        WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p data-key="footer">© 2025 Diego Angarita | Servicios IT</p>
+  </footer>
+
+  <!-- Script traducciones y animaciones -->
+  <script>
+    const translations = {
+      es: {
+        "nav-home": "Inicio",
+        "nav-services": "Servicios",
+        "nav-experience": "Experiencia",
+        "nav-projects": "Proyectos",
+        "nav-education": "Educación",
+        "nav-skills": "Habilidades",
+        "nav-contact": "Contacto",
+        "hero-title": "Especialista en Ciberseguridad & Soporte Cloud",
+        "hero-subtitle": "Más de 6 años de experiencia en soporte técnico, seguridad informática y entornos empresariales globales.",
+        "hero-btn": "Contáctame",
+        "services-title": "Servicios",
+        "srv1-title": "Soporte Técnico",
+        "srv1-desc": "Resolución de incidentes y mantenimiento preventivo.",
+        "srv2-title": "Infraestructura Cloud",
+        "srv2-desc": "Gestión de Azure, AWS y entornos híbridos.",
+        "srv3-title": "Ciberseguridad",
+        "srv3-desc": "Gestión de vulnerabilidades y hardening de sistemas.",
+        "srv4-title": "Automatización",
+        "srv4-desc": "Scripts en PowerShell y Python para optimizar procesos.",
+        "exp-title": "Experiencia Profesional",
+        "exp1": "Administración de Active Directory, soporte remoto, gestión de Azure, políticas de seguridad y resolución de incidentes globales (2024–2025).",
+        "exp2": "Soporte en Azure, SQL, políticas de acceso y seguridad cloud (2022–2024).",
+        "exp3": "Soporte remoto en México y EE.UU., monitoreo de infraestructura crítica (2023–2024).",
+        "exp4": "Soporte corporativo 7x24, monitoreo de servidores y redes (2020–2021).",
+        "exp5": "Gestión de usuarios en Active Directory, soporte de sistemas, redes y estaciones de trabajo (2021–2022).",
+        "projects-title": "Proyectos Destacados",
+        "proj1": "Automatización con PowerShell e Intune: reducción de tiempos en 70% y mejora de seguridad (Howdy/NCS 2024).",
+        "proj2": "Privatización de base de datos crítica en Azure con VPNs y acceso seguro (SCIWW 2023–2024).",
+        "edu-title": "Educación & Certificaciones",
+        "edu1": "SQL Master – Udemy (2024)",
+        "edu2": "Microsoft Intune – Udemy (2024)",
+        "edu3": "Junior Pentester – Hacker Mentor (2024)",
+        "skills-title": "Habilidades Técnicas",
+        "contact-title": "Contacto",
+        "footer": "© 2025 Diego Angarita | Servicios IT"
+      },
+      en: {
+        "nav-home": "Home",
+        "nav-services": "Services",
+        "nav-experience": "Experience",
+        "nav-projects": "Projects",
+        "nav-education": "Education",
+        "nav-skills": "Skills",
+        "nav-contact": "Contact",
+        "hero-title": "Cybersecurity & Cloud Support Specialist",
+        "hero-subtitle": "Over 6 years of experience in technical support, cybersecurity, and enterprise IT environments.",
+        "hero-btn": "Get in Touch",
+        "services-title": "Services",
+        "srv1-title": "Technical Support",
+        "srv1-desc": "Incident resolution and preventive maintenance.",
+        "srv2-title": "Cloud Infrastructure",
+        "srv2-desc": "Azure, AWS, and hybrid environment management.",
+        "srv3-title": "Cybersecurity",
+        "srv3-desc": "Vulnerability management and system hardening.",
+        "srv4-title": "Automation",
+        "srv4-desc": "PowerShell and Python scripting to optimize processes.",
+        "exp-title": "Professional Experience",
+        "exp1": "Active Directory administration, remote support, Azure management, security policies, and global incident resolution (2024–2025).",
+        "exp2": "Azure and SQL support, access policy management, and cloud security (2022–2024).",
+        "exp3": "Remote support in Mexico and the US, monitoring critical infrastructure (2023–2024).",
+        "exp4": "24/7 corporate IT support, monitoring servers and networks (2020–2021).",
+        "exp5": "User administration in Active Directory, system and network support (2021–2022).",
+        "projects-title": "Featured Projects",
+        "proj1": "Automation with PowerShell and Intune: reduced deployment times by 70% and improved security (Howdy/NCS 2024).",
+        "proj2": "Privatization of a critical Azure database with VPNs and secure access (SCIWW 2023–2024).",
+        "edu-title": "Education & Certifications",
+        "edu1": "SQL Master – Udemy (2024)",
+        "edu2": "Microsoft Intune – Udemy (2024)",
+        "edu3": "Junior Pentester – Hacker Mentor (2024)",
+        "skills-title": "Technical Skills",
+        "contact-title": "Contact",
+        "footer": "© 2025 Diego Angarita | IT Services"
+      }
+    };
+
+    let currentLang = "es";
+    const langBtn = document.getElementById("lang-toggle");
+
+    langBtn.addEventListener("click", () => {
+      currentLang = currentLang === "es" ? "en" : "es";
+      langBtn.textContent = currentLang === "es" ? "EN" : "ES";
+
+      document.querySelectorAll("[data-key]").forEach(el => {
+        el.classList.add("fade");
+      });
+
+      setTimeout(() => {
+        document.querySelectorAll("[data-key]").forEach(el => {
+          const key = el.getAttribute("data-key");
+          el.textContent = translations[currentLang][key];
+          el.classList.remove("fade");
+        });
+      }, 400);
+    });
+
+    // Animaciones reveal al hacer scroll
+    function revealOnScroll() {
+      const reveals = document.querySelectorAll(".reveal");
+      reveals.forEach(el => {
+        const windowHeight = window.innerHeight;
+        const elementTop = el.getBoundingClientRect().top;
+        const elementVisible = 100;
+
+        if (elementTop < windowHeight - elementVisible) {
+          el.classList.add("active");
+        }
+      });
+    }
+
+    window.addEventListener("scroll", revealOnScroll);
+  </script>
+</body>
+
+</html>
